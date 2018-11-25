@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding:0;
+  border:0;
+}
+
+body {
+  background:linear-gradient( #b2d8ff, #8bb5e0);
+  height:100vh;
+}
