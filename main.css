@@ -2,10 +2,11 @@
   margin: 0;
   padding:0;
   border:0;
-  font-family:Montserrat;
+  font-family:Roboto;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 
 body {
   background:#323c41;
@@ -16,11 +17,22 @@ header {
  }
  
 header h1 {
-
+  color: #9CC9E3;
+  text-transform: uppercase;
+  text-align:center;
+  
 }
 
 main{
   
+}
+
+main p, main span {
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  color:#fff;
+  font-size: 1.4em;
+  text-align:center;
 }
  
 footer {
@@ -28,5 +40,9 @@ footer {
 }
  
 footer p {
-  
+  font-family: 'Roboto', serif;
+  color:#D0BB57;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:1.5em;
 }
