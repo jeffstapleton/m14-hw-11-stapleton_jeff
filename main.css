@@ -2,41 +2,31 @@
   margin: 0;
   padding:0;
   border:0;
+  font-family:Roboto;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
 
 body {
-  background:linear-gradient(#b2d8ff, #8bb5e0);
-  height:100vh;
-  overflow:hidden;
+
 }
 
- #cloud {
-  background-image:url('img/cloud.svg');
-  margin-top:-100px;
-  margin-left:-200px;
-  background-size:cover;
-  padding:auto;
-  height:50vh;
+header {
+
  }
  
- header h1 {
-   z-index:2;
-   text-align:center;
-   margin-top:-100px;
- }
+header h1 {
+
+}
+
+main{
+  
+}
  
- footer {
-  background:#5b916e;
-  position: absolute;
-  width:100%;
-  height: 200px;
-  border-radius: 50% 50% 0 0;
-  bottom: 0;
- }
+footer {
+  
+}
  
- footer p {
-   text-align: center;
-   font-size:2em;
-   padding-top:1em;
-   color:#fff;
- }
+footer p {
+  
+}
