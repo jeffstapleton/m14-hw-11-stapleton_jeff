@@ -4,4 +4,4 @@ var forecast = {"coord":{"lon":-122.09,"lat":37.39},
 var weatherWrapper = document.getElementById('span4i');
 
 var currentWeather = document.createTextNode(forecast.coord.weather[3]);
-weatherWrapper.appendChild(currentWeather)
+weatherWrapper.appendChild(currentWeather);
