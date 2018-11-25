@@ -8,3 +8,10 @@ body {
   background:linear-gradient( #b2d8ff, #8bb5e0);
   height:100vh;
 }
+ header {
+   background:#fff;
+ }
+ 
+ footer {
+   background:#5b916e;
+ }
