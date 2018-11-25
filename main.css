@@ -9,8 +9,20 @@ body {
   height:100vh;
   overflow:hidden;
 }
- header {
-  background-image: url("");
+
+ #cloud {
+  background-image:url('img/cloud.svg');
+  margin-top:-100px;
+  margin-left:-200px;
+  background-size:cover;
+  padding:auto;
+  height:50vh;
+ }
+ 
+ header h1 {
+   z-index:2;
+   text-align:center;
+   margin-top:-100px;
  }
  
  footer {
