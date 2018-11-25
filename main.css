@@ -2,13 +2,13 @@
   margin: 0;
   padding:0;
   border:0;
-  font-family:Roboto;
+  font-family:Montserrat;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-
+  background:#323c41;
 }
 
 header {
