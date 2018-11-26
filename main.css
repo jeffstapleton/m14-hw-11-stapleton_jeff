@@ -13,7 +13,8 @@ body {
 }
 
 #container {
-  background:linear-gradient(to bottom,rgba(84,104,110,0.8), rgba(84,104,110,0.9)), url("img/ennis.jpg");
+  padding-top: 5%;
+  background:linear-gradient(to bottom,rgba(84,104,110,0.8), rgba(84,104,110,0.9)), url("img/ennis2.jpg");
   background-position: center;
   background-size:cover;
   position:relative;
@@ -22,6 +23,7 @@ body {
   margin:auto;
   margin-top:30%;
   border-radius:10px;
+  box-shadow: 4px 4px 21px rgba(0, 0, 0, .3);
 }
 
 header {
@@ -32,7 +34,7 @@ header h1 {
   color: #9CC9E3;
   text-transform: uppercase;
   text-align:center;
-  padding-bottom:5%;;  
+  padding-bottom:5%;
 }
 
 hr {
