@@ -13,48 +13,56 @@ body {
 }
 
 #container {
-  padding:5%;
+  background-image:url("img/ennis.jpg");
+  background:rgba(84,104,110,0.4);
   width:50%;
   height:50%;
-  background:gray;
   margin:auto;
   margin-top:30%;
   border-radius:10px;
 }
 
 header {
-
- }
+  padding:1.5em;
+}
  
 header h1 {
   color: #9CC9E3;
   text-transform: uppercase;
   text-align:center;
-  padding-bottom:5%;;
-  
+  padding-bottom:5%;;  
+}
+
+hr {
+  width:50px;
+  height:3px;
+  margin: 20px auto;
+  border:0;
+  background:#D0BB57;
 }
 
 main{
-  
+  padding: 2em;
 }
 
 main p, main span {
-  padding: 2% 0;
   font-family: 'Droid Serif', serif;
   font-style: italic;
   color:#fff;
   font-size: 1.4em;
   text-align:center;
+  padding-bottom:1.5em;
 }
  
 footer {
-  
+  background:#D0BB57;
+  padding:1.5em;
+  border-radius: 0 0 10px 10px;
 }
  
 footer p {
-  padding-top: 5%;
   font-family: 'Roboto', serif;
-  color:#D0BB57;
+  color:#fff;
   text-transform:uppercase;
   text-align:center;
   font-size:1.5em;
